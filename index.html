@@ -4,161 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - El3yada Pets
-    </title>
-    <style>
-        /* --- CSS Variables for Medical Theme --- */
-        :root {
-            --primary-color: #2A9D8F;
-            /* Soft Teal */
-            --secondary-color: #264653;
-            /* Dark Blue-Grey */
-            --accent-color: #E9C46A;
-            /* Warm Sand */
-            --alert-bg: #FFF3CD;
-            /* Light Yellow for warnings */
-            --alert-border: #FFEEBA;
-            --alert-text: #856404;
-            --text-color: #333333;
-            --bg-color: #F4F7F6;
-            /* Very light grey/mint */
-            --container-bg: #FFFFFF;
-        }
-
-        /* --- Global Resets --- */
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: var(--bg-color);
-            padding: 20px;
-        }
-
-        /* --- Layout --- */
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: var(--container-bg);
-            padding: 40px;
-            border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-        }
-
-        /* --- Typography --- */
-        h1 {
-            color: var(--secondary-color);
-            margin-bottom: 10px;
-            font-size: 2rem;
-        }
-
-        h2 {
-            color: var(--primary-color);
-            margin-top: 30px;
-            margin-bottom: 15px;
-            font-size: 1.4rem;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-        }
-
-        p {
-            margin-bottom: 15px;
-        }
-
-        ul {
-            margin-bottom: 15px;
-            padding-left: 20px;
-        }
-
-        li {
-            margin-bottom: 8px;
-        }
-
-        /* --- Special Components --- */
-        .last-updated {
-            font-size: 0.9rem;
-            color: #777;
-            margin-bottom: 30px;
-            font-style: italic;
-        }
-
-        /* Important Disclaimer Box */
-        .medical-alert-box {
-            background-color: var(--alert-bg);
-            border: 1px solid var(--alert-border);
-            color: var(--alert-text);
-            padding: 20px;
-            border-radius: 6px;
-            margin-bottom: 30px;
-            border-left: 5px solid #ffc107;
-        }
-
-        .medical-alert-box strong {
-            display: block;
-            font-size: 1.1rem;
-            margin-bottom: 10px;
-            text-transform: uppercase;
-        }
-
-        footer {
-            margin-top: 50px;
-            text-align: center;
-            font-size: 0.85rem;
-            color: #888;
-            border-top: 1px solid #eee;
-            padding-top: 20px;
-        }
-
-        a {
-            color: var(--primary-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* --- Mobile Optimization --- */
-        @media (max-width: 600px) {
-            .container {
-                padding: 20px;
-            }
-
-            h1 {
-                font-size: 1.6rem;
-            }
-        }
-    </style>
+    <title>Terms of Service - El3yada Pets</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container">
-        <header>
+        <header class="doc-header">
             <h1>Terms of Service</h1>
-            <p class="last-updated">Last Updated: November 1st, 2025
-            </p>
+            <p class="meta-text"><strong>Last Updated:</strong> November 1st, 2025</p>
         </header>
 
-        <section class="medical-alert-box">
+        <div class="alert-box">
             <strong>⚠ Important Medical Disclaimer</strong>
             <p>This WhatsApp Chatbot is an automated scheduling and informational tool. <strong>It is NOT a substitute
                     for professional veterinary diagnosis or treatment.</strong></p>
-            <p>If your pet is experiencing a medical emergency, breathing difficulties, severe bleeding, or loss of
-                consciousness, <strong>DO NOT USE THIS CHATBOT.</strong> Proceed immediately to El3yada Pets or the
-                nearest emergency veterinary hospital.</p>
-        </section>
+            <p class="alert-urgent">If your pet is experiencing a medical emergency, breathing difficulties, severe
+                bleeding, or loss of consciousness, <strong>DO NOT USE THIS CHATBOT.</strong> Proceed immediately to
+                El3yada Pets or the nearest emergency veterinary hospital.</p>
+        </div>
 
         <main>
             <section>
                 <h2>1. Acceptance of Terms</h2>
-                <p>By accessing or using the El3yada Pets WhatsApp Chatbot (the "Service"), you agree to be bound
-                    by these Terms of Service. If you do not agree to these terms, please discontinue the use of the
+                <p>By accessing or using the El3yada Pets WhatsApp Chatbot (the "Service"), you agree to be bound by
+                    these Terms of Service. If you do not agree to these terms, please discontinue the use of the
                     Service immediately.</p>
             </section>
 
@@ -201,44 +72,43 @@
 
             <section>
                 <h2>5. Termination of Access</h2>
-                <p>
-                    El3yada Pets reserves the right to block, suspend, or terminate your access to the WhatsApp
-                    Chatbot at our sole discretion, without notice, if you violate these Terms, specifically
-                    regarding abusive language or spamming.
-                </p>
+                <p>El3yada Pets reserves the right to block, suspend, or terminate your access to the WhatsApp Chatbot
+                    at our sole discretion, without notice, if you violate these Terms, specifically regarding abusive
+                    language or spamming.</p>
             </section>
 
             <section>
                 <h2>6. Privacy & Data Processing</h2>
                 <p>Your interactions with this bot are processed to fulfill your requests (e.g., booking an
-                    appointment). For details on how we handle your data, please review our <a
-                        href="/privacy-policy">Privacy Policy</a>.</p>
+                    appointment). For details on how we handle your data, please review our <a href="privacy-policy.el3yada-pets.health">Privacy
+                        Policy</a>.</p>
             </section>
 
             <section>
                 <h2>7. Governing Law</h2>
-                <p>These terms shall be governed by and construed in accordance with the laws of Egypt.
-                </p>
+                <p>These terms shall be governed by and construed in accordance with the laws of Egypt.</p>
             </section>
 
-            <section>
+            <section class="contact-section">
                 <h2>8. Contact Us</h2>
                 <p>If you have questions about these Terms, please contact us at:</p>
-                <p>
-                    <strong>
-                        El3yada Pets
-                    </strong><br>
-                    +20 12 2823 0562<br>
-                    el3yada.pets@gmail.com
-                </p>
+                <address>
+                    <strong>El3yada Pets</strong><br>
+                    Address: Ghorab Street, Quwesnia, Menoufia Governorate, Egypt<br>
+                    Email: <a href="mailto:el3yada.pets@gmail.com">el3yada.pets@gmail.com</a><br>
+                    Phone: +20 12 2823 0562
+                </address>
             </section>
         </main>
 
-        <footer>
-            <p>&copy; 2025 El3yada Pets. All rights reserved.</p>
+        <footer class="doc-footer">
+            <p>&copy; <span id="current-year"></span> El3yada Pets. All rights reserved.</p>
         </footer>
     </div>
 
+    <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
